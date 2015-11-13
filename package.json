@@ -1,0 +1,22 @@
+{
+  "name": "tests-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Doncho Minkov (donchominkov@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.5",
+    "node-uuid": "^1.4.6",
+    "passport": "^0.3.2",
+    "passport-http-bearer": "^1.0.1"
+  },
+  "jshintConfig": {
+    "esnext": true
+  }
+}
